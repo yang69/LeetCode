@@ -1,0 +1,101 @@
+public List<List<Integer>> fourSum(int[] nums, int target) {
+        ArrayList<List<Integer>> res = new ArrayList<>();
+        
+        if(nums == null || nums.length < 4) { //输入个数不足
+            return res;
+        }
+        
+        Arrays.sort(nums);
+        
+        int max = nums[nums.length-1];
+        if( 4*nums[0] > target || 4*max < target) { //无解
+        	return res;
+        }
+        
+        int i, z;
+        for(i = 0; i < nums.length; i++) {
+        	z = nums[i];
+        	if(i > 0 && nums[i-1] == z) { //去重
+        		continue;
+        	}
+        	if(z + 3*max < target) { //z太小，无解
+        		continue;
+        	}
+        	if(4*z > target) { //z太大，无解。搜索结束
+        		break;
+        	}
+        	if(4*z == target) {
+        		if(i+3 < nums.length && nums[i+3] == z) {
+        			res.add(Arrays.asList(z, z, z, z));
+        		}
+        		break; //接下去的z都太大，无解。搜索至此已经结束
+        	}
+        	threeSumForFourSum(nums, target-z, i+1, nums.length-1, res, z);
+        }
+        return res;
+    }
+	private void threeSumForFourSum(int[] nums, int target, 
+			int low, int high, List<List<Integer>> res, int z1) {
+		if(low + 1 >= high) { //待处理的数列个数不足
+			return;
+		}
+		
+		int max = nums[high];
+		if(3*nums[low] > target || 3*max < target) { //无解
+			return;
+		}
+		
+		int i, z;
+		for(i = low; i < high-1; i++) { //结尾2个数不需要迭代
+			z = nums[i];
+			if(i > low && nums[i-1] == z) { //去重
+				continue;
+			}
+			if(z + 2*max < target) { //z太小，无解
+				continue;
+			}
+			if(3*z > target) { //z太大，无解。搜索结束
+				break;
+			}
+			if(3*z == target) {
+				if(i + 1 < high && nums[i+2] == z) {
+					res.add(Arrays.asList(z1, z, z, z));
+				}
+				break;
+			}
+			twoSumForFourSum(nums, target-z, i+1, high, res, z1, z);
+		}
+	}
+	private void twoSumForFourSum(int[] nums, int target, 
+			int low, int high, List<List<Integer>> res, int z1, int z2) {
+		if(low >= high) { //待处理的数组元素个数不足
+			return;
+		}
+		
+		if(2*nums[low] > target || 2*nums[high] < target) { //无解
+			return;
+		}
+		
+		int i = low, j = high, sum, temp;
+		while(i < j) {
+			sum = nums[i] + nums[j];
+			if(sum == target) {
+				res.add(Arrays.asList(z1, z2, nums[i], nums[j]));
+				temp = nums[i];
+				while(++i < j && temp == nums[i]) { //去重
+					;
+				}
+				temp = nums[j];
+				while(--j > i && temp == nums[j]) { //去重
+					;
+				}
+			}
+			if(sum < target) {
+				i++;
+			}
+			if(sum > target) {
+				j--;
+			}
+		}
+		return;
+	}

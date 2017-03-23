@@ -1,0 +1,9 @@
+public class Solution {
+    public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
+        int left = Math.max(A, E);
+        int right = Math.max( Math.min(C, G), left ); //不重叠的情况
+        int up = Math.min(D, H);
+        int down = Math.min( Math.max(B, F), up ); //不重叠的情况
+        return (C-A)*(D-B) + (G-E)*(H-F) -(right-left)*(up-down);
+    }
+}

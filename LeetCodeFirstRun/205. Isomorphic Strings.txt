@@ -1,0 +1,15 @@
+public class Solution {
+    public boolean isIsomorphic(String s, String t) {
+        if(s.length() != t.length()) return false;
+        int[] m1 = new int[256]; //将s中的不同字符映射为不同数字(按出现顺序赋值)
+        int[] m2 = new int[256]; //将t中的不同字符映射为不同数字(按出现顺序赋值)
+        for(int i = 0; i < s.length(); i++) {
+            int idxs = (int)s.charAt(i);
+            int idxt = (int)t.charAt(i);
+            if( m1[idxs] != m2[idxt] ) return false;
+            m1[idxs] = i+1;
+            m2[idxt] = i+1;
+        }
+        return true;
+    }
+}

@@ -1,0 +1,18 @@
+public class Solution {
+    public List<String> generateParenthesis(int n) {
+        ArrayList<String> res = new ArrayList<>();
+        addingParenthesis(res, "", n, 0);
+        return res;
+    }
+    private void addingParenthesis(List<String> res, String str, int leftCount, int rightCount) {
+        if(leftCount == 0 && rightCount == 0) {
+            res.add(str);
+        }
+        if(rightCount > 0) { //ÓĞÓÒÀ¨ºÅ´ıÌí¼Ó
+            addingParenthesis(res, str + ")", leftCount, rightCount - 1);
+        }
+        if(leftCount > 0) { //ÉĞÓĞ×óÀ¨ºÅ´ıÌí¼Ó
+            addingParenthesis(res, str + "(", leftCount - 1, rightCount +1);
+        }
+    }
+}

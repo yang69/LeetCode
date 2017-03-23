@@ -1,0 +1,55 @@
+法1：HashSet
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) { 
+        HashSet<ListNode> setA = new HashSet<>();
+        if(headA == null || headB == null) return null;
+        while(headA != null) {
+            setA.add(headA);
+            headA = headA.next;
+        }
+        while(headB != null) {
+            if(setA.contains(headB)) return headB;
+            headB = headB.next;
+        }
+        return null;
+    }
+}
+
+法2：双指针
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if(headA == null || headB == null) return null;
+        ListNode pA = headA;//pA先遍历A，之后遍历B
+        ListNode pB = headB;//pB先遍历B，之后遍历A
+        while(pA != null || pB != null) {
+            if(pA == null) pA = headB;//pA先遍历A，之后遍历B
+            if(pB == null) pB = headA;//pB先遍历B，之后遍历A
+            if(pA == pB) return pA;//到交叉点时，pA与pB相等
+            pA = pA.next;
+            pB = pB.next;
+        }
+        return null;
+    }
+}

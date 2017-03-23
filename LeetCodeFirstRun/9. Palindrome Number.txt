@@ -1,0 +1,14 @@
+public class Solution {
+    public boolean isPalindrome(int x) {
+        if(x < 0 || (x != 0 && x % 10 == 0)) {
+            return false;   //负数，以及200之类的数不是回文的
+        }
+        int halfReverse = 0;
+        while(halfReverse < x) {    //将x从右边依次取一位，放入halfReverse的右侧
+            halfReverse = 10*halfReverse + x%10;
+            x = x/10;
+        }
+        //分别对应123321和12321这两类情况
+        return halfReverse == x || x == halfReverse/10;
+    }
+}

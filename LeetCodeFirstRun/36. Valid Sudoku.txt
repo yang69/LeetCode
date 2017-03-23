@@ -1,0 +1,23 @@
+public class Solution {
+    public boolean isValidSudoku(char[][] board) {
+        for(int i = 0; i < 9; i++) {
+            HashSet<Character> rows = new HashSet<Character>();
+            HashSet<Character> cols = new HashSet<Character>();
+            HashSet<Character> cube = new HashSet<Character>();
+            int rowIndex = 3*(i/3); //每一个小九宫格的首格的行坐标
+            int colIndex = 3*(i%3); //每一个小九宫格的首格的列坐标
+            for(int j = 0; j < 9; j++) {
+                if(board[i][j] != '.' && !rows.add(board[i][j])) {
+                    return false;
+                }
+                if(board[j][i] != '.' && !cols.add(board[j][i])) {
+                    return false;
+                }
+                if(board[rowIndex+j/3][colIndex+j%3] != '.' && !cube.add(board[rowIndex+j/3][colIndex + j%3])) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+}

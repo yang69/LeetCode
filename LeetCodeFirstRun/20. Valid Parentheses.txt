@@ -1,0 +1,27 @@
+public class Solution {
+    public boolean isValid(String s) {
+        Stack<Character> stack = new Stack<Character>();
+        // ±éÀú×Ö·û´®
+        for(int i = 0; i < s.length(); i++) {
+            //Óöµ½×óÀ¨ºÅ£¬·ÅÈë¶ÑÕ»ÖÐ
+            if(s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
+                stack.push(s.charAt(i));
+            }
+            //Óöµ½ÓÒÀ¨ºÅ£¬ÔÚ¶ÑÕ»¶¥ÖÐÑ°ÕÒÓëÖ®Æ¥ÅäµÄ×óÀ¨ºÅ
+            else if(s.charAt(i) == ')' && !stack.empty() && stack.peek() == '(') {
+                stack.pop();
+            }
+            else if(s.charAt(i) == ']' && !stack.empty() && stack.peek() == '[') {
+                stack.pop();
+            }
+            else if(s.charAt(i) == '}' && !stack.empty() && stack.peek() == '{') {
+                stack.pop();
+            }
+            //²»Æ¥ÅäµÄÀ¨ºÅ
+            else {
+                return false;
+            }
+        }
+        return stack.empty();
+    }
+}

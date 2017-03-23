@@ -1,0 +1,20 @@
+方法1
+public class Solution {
+    public boolean isPowerOfFour(int num) {
+        if(num < 1) { //排除负数和0
+            return false;
+        }
+        while(num%4 == 0) {
+            num /= 4;
+        }
+        return num == 1;
+    }
+}
+
+
+方法2
+public class Solution {
+    public boolean isPowerOfFour(int num) { //二进制表示只有一位1，且这个1不在奇数位上
+        return num > 0 && (num&(num-1)) ==0 && (num & 0x55555555) != 0;
+    }
+}

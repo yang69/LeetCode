@@ -1,0 +1,58 @@
+public class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        List<List<Integer>> res = new LinkedList<>();
+        for(int i = 0; i < nums.length-2; i++) {
+            if(i == 0 || ( i > 0 && nums[i] != nums[i-1] ) ) { //遍历所有不同的数字，跳过相同的
+                int lo = i+1;
+                int hi = nums.length-1;
+                while(lo < hi) {
+                    if(nums[i]+nums[lo]+nums[hi] == 0) {
+                        res.add(Arrays.asList(nums[i], nums[lo], nums[hi]));
+                        while(lo < hi && nums[lo] == nums[++lo]) {
+                        }
+                        while(lo < hi && nums[hi] == nums[--hi]) {
+                        }
+                    } else if(nums[i] + nums[lo] + nums[hi] < 0) {
+                        lo++;
+                    } else {
+                        hi--;
+                    }
+                }
+            }
+        }
+        return res;
+    }
+}
+
+
+附：穷举法，超时
+public class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        HashSet<Integer> numSet = new HashSet<Integer>();
+        for(int i = 0; i < nums.length; i++) {
+            numSet.add(nums[i]);
+        }
+        HashSet<List<Integer>> res = new HashSet<>();
+        for(int i = 0; i < nums.length-2; i++) {
+            for(int j = 0; j < nums.length-1; j++) {
+                if(!numSet.contains(0-nums[i]-nums[j])) {
+                    continue;
+                }
+                for(int k = 0; k < nums.length; k++) {
+                    if(nums[i] + nums[j] + nums[k] == 0 && i != j && k != i && k!= j) {
+                        List<Integer> temp = new ArrayList<>();
+                        temp.add(nums[i]);
+                        temp.add(nums[j]);
+                        temp.add(nums[k]);
+                        Collections.sort(temp);
+                        if(!res.contains(temp)) {
+                            res.add(temp);
+                        }
+                    }
+                }
+            }
+        }
+        return new ArrayList(res);
+    }
+}

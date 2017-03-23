@@ -1,0 +1,28 @@
+法1：
+public class Solution {
+    // you need to treat n as an unsigned value
+    public int hammingWeight(int n) {
+        int res = 0;
+        int mask = 0x00000001;
+        while(mask != 0) {
+            if( (n & mask) != 0) {
+                res++;
+            }
+            mask = mask << 1;
+        }
+        return res;
+    }
+}
+
+法2：
+public class Solution {
+    // you need to treat n as an unsigned value
+    public int hammingWeight(int n) {
+        int res = 0;
+        while(n != 0) {
+            n = n & (n-1); //此操作将使最低有效位的1置零
+            res++;
+        }
+        return res;
+    }
+}

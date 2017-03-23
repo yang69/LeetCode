@@ -1,0 +1,36 @@
+方法1
+public class Solution {
+    public boolean isPowerOfThree(int n) {
+        if(n<1) { //去除负数和0
+            return false;
+        }
+        while(n%3 == 0) {
+            n /= 3;
+        }
+        return n==1;
+    }
+}
+
+
+方法2
+public class Solution {
+    public boolean isPowerOfThree(int n) { //转换成3进制数，并判断是否以1打头，后面跟的全是0
+        return Integer.toString(n, 3).matches("^10*$");
+    }
+}
+
+
+方法3
+public class Solution {
+    public boolean isPowerOfThree(int n) { //32位整形int能表示的最大的3的幂数是3^19=1162261467
+        return n > 0 && 1162261467 % n == 0; //3^19=1162261467
+    }
+}
+
+
+方法3
+public class Solution {
+    public boolean isPowerOfThree(int n) { //以3为底的对数值是否为整数
+        return Math.log10(n)/Math.log10(3) % 1 == 0; //可能有问题，double型的不能直接用==
+    }
+}

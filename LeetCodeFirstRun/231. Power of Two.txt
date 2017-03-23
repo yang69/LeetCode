@@ -1,0 +1,7 @@
+public class Solution {
+    public boolean isPowerOfTwo(int n) {
+        //2的幂不会小于1，最小的是2的0次方=1
+        //任何2的幂数，其二进制只有一位为1，n&(n-1)一定为0
+        return n < 1 ? false : (n&(n-1)) == 0 ? true : false;
+    }
+}

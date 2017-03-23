@@ -1,0 +1,97 @@
+// Source : https://leetcode.com/problems/insertion-sort-list/
+// Author : Yang
+// Date   : 2017-02-28
+
+/********************************************************************************** 
+* 
+* Sort a linked list using insertion sort.
+* 
+**********************************************************************************/
+法1：（很混乱，不要看）
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public ListNode insertionSortList(ListNode head) {
+        //少于两个元素|zero or one element in list
+        if(head == null || head.next == null) {
+            return head;
+        }
+        ListNode fakeHead = new ListNode(0); //-1号结点
+        fakeHead.next = head;
+        ListNode prev = head;
+        ListNode curr = head.next;
+        int currPos = 1;
+        while(curr != null) {
+            ListNode temp = fakeHead.next;
+            int i;
+//            System.out.println("currPos=" + currPos);
+            for(i = 0; i < currPos; i++) { //找到curr结点的插入位置
+//            	System.out.println("i=" + i);
+//            	System.out.println("temp=" + temp.val);
+                if(temp.val > curr.val) {break;}
+                temp = temp.next;
+            }
+            if(i < currPos) { //需要执行插入操作
+                temp = fakeHead;
+                for(int j = 0; j < i; j++) { //找到插入位置的前一个结点
+                    temp = temp.next;
+                }
+                prev.next = curr.next;
+                curr.next = temp.next;
+                temp.next = curr;
+                temp = curr;
+                curr = prev.next;
+            } else {
+            	prev = curr;
+            	curr = curr.next;
+            }
+            currPos++;
+        }
+        return fakeHead.next;
+    }
+}
+
+法2：
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+/* 初始设定，第一个结点是已排序部分；从第二个结点开始是未排序的部分。每次从未排序部分取出最前面的一个结点，把它插入已经排序的序列中。*/
+public class Solution {
+    public ListNode insertionSortList(ListNode head) {
+        if(head == null || head.next == null) { //结点个数小于2，无需排序
+            return head;
+        }
+        ListNode sorted = head; //有序部分，初始化时sorted只有head的首结点
+        head = head.next; //无序部分，初始化时除了head的首结点都是无序部分
+        sorted.next = null; //这一行一定要在head = head.next的下面，否则head后面的值就被删了，这一行必须有，否则sorted链表没有结尾
+        while(head != null) {
+            //1. 从未排序部分取出一个结点node
+            ListNode node = head;
+            head = head.next;
+            //2. 将node插入已排序部分的适当位置
+            if(node.val <= sorted.val) { //Case 1. 待排序的结点小于有序链表的表头，则该结点成为新的表头
+                node.next = sorted;
+                sorted = node;
+            } else { //Case 2，寻找待排序的结点在有序链表中的插入位置
+                ListNode temp = sorted;
+                while(temp.next != null && temp.next.val < node.val) {
+                    temp = temp.next;
+                }
+                node.next = temp.next;
+                temp.next = node;
+            }
+        }
+        return sorted;
+    }
+}

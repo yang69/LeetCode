@@ -1,0 +1,30 @@
+方法1：统计各个字母的频次
+public class Solution {
+    public char findTheDifference(String s, String t) {
+        int[] freq = new int[26]; //统计26个字母在s中出现的频次
+        for(int i = 0; i < s.length(); i++) {
+            freq[s.charAt(i) - 'a']++;
+            freq[t.charAt(i) - 'a']--;
+        }
+        freq[t.charAt(t.length()-1) - 'a']--; //t比s多一个字母
+        char res = ' ';
+        for(int i = 0; i < freq.length; i++) {
+            if(freq[i] < 0) {
+                res = (char)('a'+i);
+            }
+        }
+        return res;
+    }
+}
+
+方法2：异或运算找出频次为奇数的字母
+public class Solution {
+    public char findTheDifference(String s, String t) {
+        char res = t.charAt(t.length()-1); //t比s多一个字母
+        for(int i = 0; i < s.length(); i++) {
+            res ^= s.charAt(i);
+            res ^= t.charAt(i);
+        }
+        return res;
+    }
+}
