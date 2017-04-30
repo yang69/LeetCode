@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)| [Java](./algorithms/java/ReshapeTheMatrix.java) , [Editorial](https://leetcode.com/articles/reshape-the-matrix/)|Easy|
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)| [Java](./algorithms/java/BinaryTreeTilt.java) , [Editorial](https://leetcode.com/articles/binary-tree-tilt/)|Easy|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)| [Java](./algorithms/java/ArrayPartitionI.java) , [Editorial](https://leetcode.com/articles/array-partitioning-i)|Easy|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C](./algorithms/c/DetectCapital.c)， [C++](./algorithms/cpp/DetectCapital.cpp)|Easy|
