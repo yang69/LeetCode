@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)| [Java](./algorithms/java/MinimumIndexSumOfTwoLists.java) , [Editorial](https://leetcode.com/articles/minimum-index-sum-of-two-lists/)|Easy|
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)| [Java](./algorithms/java/ReshapeTheMatrix.java) , [Editorial](https://leetcode.com/articles/reshape-the-matrix/)|Easy|
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)| [Java](./algorithms/java/BinaryTreeTilt.java) , [Editorial](https://leetcode.com/articles/binary-tree-tilt/)|Easy|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)| [Java](./algorithms/java/ArrayPartitionI.java) , [Editorial](https://leetcode.com/articles/array-partitioning-i)|Easy|
