@@ -15,5 +15,6 @@
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)| [Java](./algorithms/java/ArrayPartitionI.java) , [Editorial](https://leetcode.com/articles/array-partitioning-i)|Easy|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C](./algorithms/c/DetectCapital.c)， [C++](./algorithms/cpp/DetectCapital.cpp)|Easy|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)| [Java](./algorithms/java/PerfectNumber.java) , [Editorial](https://leetcode.com/articles/perfect-number/)|Easy|
+|475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
 |1|[Two Sum](https://leetcode.com/problems/two-sum)| [Java](./LeetCodeFirstRun/1. Two Sum.txt) , [Editorial](https://leetcode.com/articles/two-sum)|Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Java](./LeetCodeFirstRun/2. Add Two Numbers.txt) , [Editorial](https://leetcode.com/articles/add-two-numbers)|Medium|
