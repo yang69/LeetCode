@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)| [Java](./algorithms/java/TwoKeysKeyboard.java)|Medium|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)| [Java](./algorithms/java/CanPlaceFlowers.java) , [Editorial](https://leetcode.com/articles/can-place-flowers/)|Easy|
 |599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)| [Java](./algorithms/java/MinimumIndexSumOfTwoLists.java) , [Editorial](https://leetcode.com/articles/minimum-index-sum-of-two-lists/)|Easy|
 |598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/)| [Java](./algorithms/java/RangeAdditionII.java) , [Editorial](https://leetcode.com/articles/range-addition-ii/)|Easy|
