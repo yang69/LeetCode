@@ -18,7 +18,6 @@ import java.util.Arrays;
  *      A valid square has four equal sides with positive length and four equal angles
  *      (90-degree angles).
  *      Input points have no order.
-
  ************************************************************************************************
  */
 public class ValidSquare {
