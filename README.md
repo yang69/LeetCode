@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)| [Java](./algorithms/java/EqualTreePartition.java)|Medium|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)| [Java](./algorithms/java/MaximumWidthOfBinaryTree.java)|Medium|
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)| [Java](./algorithms/java/ImageSmoother.java)|Easy|
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)| [Java](./algorithms/java/Remove9.java)|Hard|
