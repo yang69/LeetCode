@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|661|[Image Smoother](https://leetcode.com/problems/image-smoother/)| [Java](./algorithms/java/ImageSmoother.java)|Easy|
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)| [Java](./algorithms/java/Remove9.java)|Hard|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/)| [Java](./algorithms/java/JudgeRouteCircle.java)|Easy|
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)| [Java](./algorithms/java/TwoKeysKeyboard.java)|Medium|
