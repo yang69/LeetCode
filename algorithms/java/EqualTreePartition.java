@@ -26,7 +26,6 @@ import java.util.HashSet;
  *         2  10
  *           /  \
  *          2   20
-
  *  Output: False
  *  Explanation:
  *      You can't split the tree into two trees with equal sum after removing exactly one edge

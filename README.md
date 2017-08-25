@@ -23,6 +23,7 @@
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C](./algorithms/c/DetectCapital.c)， [C++](./algorithms/cpp/DetectCapital.cpp)|Easy|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)| [Java](./algorithms/java/PerfectNumber.java) , [Editorial](https://leetcode.com/articles/perfect-number/)|Easy|
 |475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/CountingBits.java) |Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)| [Java](./algorithms/java/DecodeWays.java) |Medium|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Java](./algorithms/java/MultiplyStrings.java) |Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](./algorithms/java/TrappingRainWater.java) , [Editorial](https://leetcode.com/articles/trapping-rain-water/)|Hard|
