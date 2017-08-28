@@ -26,6 +26,7 @@
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [Java](./algorithms/java/PredictTheWinner.java) |Medium|
 |475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/CountingBits.java) |Medium|
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)| [Java](./algorithms/java/BurstBalloons.java) |Hard|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)| [Java](./algorithms/java/DecodeWays.java) |Medium|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Java](./algorithms/java/MultiplyStrings.java) |Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](./algorithms/java/TrappingRainWater.java) , [Editorial](https://leetcode.com/articles/trapping-rain-water/)|Hard|
