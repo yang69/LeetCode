@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [Java](./algorithms/java/ValidPalindromeII.java) , [Editorial](https://leetcode.com/articles/valid-palindrome-ii/)|Easy|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)| [Java](./algorithms/java/PathSumIV.java) , [Discuss](https://discuss.leetcode.com/category/1485/path-sum-iv)|Medium|
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)| [Java](./algorithms/java/EqualTreePartition.java)|Medium|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)| [Java](./algorithms/java/MaximumWidthOfBinaryTree.java)|Medium|
