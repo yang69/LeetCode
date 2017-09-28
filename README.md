@@ -29,6 +29,7 @@
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)| [Java](./algorithms/java/PerfectNumber.java) , [Editorial](https://leetcode.com/articles/perfect-number/)|Easy|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [Java](./algorithms/java/PredictTheWinner.java) |Medium|
 |475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
+|421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)| [Java](./algorithms/java/MaximumXOROfTwoNumbersInAnArray.java) |Medium|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [Java](./algorithms/java/CombinationSumIV.java) |Medium|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/CountingBits.java) |Medium|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)| [Java](./algorithms/java/BurstBalloons.java) |Hard|
