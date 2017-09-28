@@ -32,6 +32,7 @@
 |475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
 |421.5|[Maximum Xor Secondary](http://codeforces.com/problemset/problem/280/B/)| [Java](./algorithms/java/MaximumXorSecondary.java), [Blog](http://gautamimp.blogspot.com/2016/02/d-maximum-xor-secondary-find-max-and.html) | --- |
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)| [Java](./algorithms/java/MaximumXOROfTwoNumbersInAnArray.java) |Medium|
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](./algorithms/java/IsSubsequence.java) |Medium|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [Java](./algorithms/java/CombinationSumIV.java) |Medium|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/CountingBits.java) |Medium|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)| [Java](./algorithms/java/BurstBalloons.java) |Hard|
