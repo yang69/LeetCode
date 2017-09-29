@@ -28,6 +28,7 @@
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C](./algorithms/c/DetectCapital.c)， [C++](./algorithms/cpp/DetectCapital.cpp)|Easy|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| [Java](./algorithms/java/LongestPalindromicSubsequence.java)|Medium|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)| [Java](./algorithms/java/PerfectNumber.java) , [Editorial](https://leetcode.com/articles/perfect-number/)|Easy|
+|494|[Target Sum](https://leetcode.com/problems/target-sum/)| [Java](./algorithms/java/TargetSum.java) |Medium|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [Java](./algorithms/java/PredictTheWinner.java) |Medium|
 |475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
 |421.5|[Maximum Xor Secondary](http://codeforces.com/problemset/problem/280/B/)| [Java](./algorithms/java/MaximumXorSecondary.java), [Blog](http://gautamimp.blogspot.com/2016/02/d-maximum-xor-secondary-find-max-and.html) | --- |
