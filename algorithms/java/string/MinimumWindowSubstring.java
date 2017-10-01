@@ -8,7 +8,9 @@ import java.util.HashMap;
  * 76. Minimum Window Substring
  * https://leetcode.com/problems/minimum-window-substring/
  * https://discuss.leetcode.com/topic/68976/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem
- * 滑动窗口：438. Find All Anagrams in a String
+ * 滑动窗口：
+ *  3. Longest Substring Without Repeating Characters
+ *  438. Find All Anagrams in a String
  ************************************************************************************************
  * Given a string S and a string T, find the minimum window in S which will contain all the
  * characters in T in complexity O(n).
