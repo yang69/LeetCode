@@ -31,6 +31,7 @@
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)| [Java](./algorithms/java/TargetSum.java) |Medium|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [Java](./algorithms/java/PredictTheWinner.java) |Medium|
 |475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
+|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [Java](./algorithms/java/string/FindAllAnagramsInAString.java) |Easy|
 |421.5|[Maximum Xor Secondary](http://codeforces.com/problemset/problem/280/B/)| [Java](./algorithms/java/MaximumXorSecondary.java), [Blog](http://gautamimp.blogspot.com/2016/02/d-maximum-xor-secondary-find-max-and.html) | --- |
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)| [Java](./algorithms/java/MaximumXOROfTwoNumbersInAnArray.java) |Medium|
 |392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](./algorithms/java/IsSubsequence.java) |Medium|
