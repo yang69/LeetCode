@@ -5,7 +5,7 @@
  * it a palindrome.
  *
  * Example 1:
- *  Input:  "abc"
+ *  Input:  "aba"
  *  Output: true
  *
  * Example 2:

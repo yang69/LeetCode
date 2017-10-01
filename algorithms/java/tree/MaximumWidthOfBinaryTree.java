@@ -35,8 +35,8 @@ import java.util.Queue;
  *  Input:  1
  *         / \
  *        3   2
- *       / \   \
- *      5   3   9
+ *       /
+ *      5
  *  Output: 2
  *  Explanation:
  *      The maximum width existing in the third level with the length 2 (3,2).

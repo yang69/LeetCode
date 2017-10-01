@@ -6,11 +6,11 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [Java](./algorithms/java/ValidPalindromeII.java) , [Editorial](https://leetcode.com/articles/valid-palindrome-ii/)|Easy|
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [Java](./algorithms/java/string/ValidPalindromeII.java) , [Editorial](https://leetcode.com/articles/valid-palindrome-ii/)|Easy|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)| [Java](./algorithms/java/ValidParenthesisString.java) , [Editorial](https://leetcode.com/articles/valid-string/)|Medium|
 |666|[Path Sum IV](https://leetcode.com/problems/path-sum-iv/)| [Java](./algorithms/java/PathSumIV.java) , [Discuss](https://discuss.leetcode.com/category/1485/path-sum-iv)|Medium|
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)| [Java](./algorithms/java/EqualTreePartition.java)|Medium|
-|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)| [Java](./algorithms/java/MaximumWidthOfBinaryTree.java)|Medium|
+|662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)| [Java](./algorithms/java/tree/MaximumWidthOfBinaryTree.java)|Medium|
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)| [Java](./algorithms/java/ImageSmoother.java)|Easy|
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)| [Java](./algorithms/java/Remove9.java)|Hard|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/)| [Java](./algorithms/java/JudgeRouteCircle.java)|Easy|
