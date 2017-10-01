@@ -10,7 +10,8 @@ import java.util.List;
  * 438. Find All Anagrams in a String
  * https://leetcode.com/problems/find-all-anagrams-in-a-string/
  * https://discuss.leetcode.com/topic/68976/sliding-window-algorithm-template-to-solve-all-the-leetcode-substring-search-problem
- * 滑动窗口
+ * 变位词（异序词）：242. Valid Anagram
+ * 滑动窗口：76. Minimum Window Substring
  ************************************************************************************************
  * Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
  * Strings consists of lowercase English letters only and the length of both strings s and p will

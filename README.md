@@ -38,8 +38,9 @@
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [Java](./algorithms/java/CombinationSumIV.java) |Medium|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/CountingBits.java) |Medium|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)| [Java](./algorithms/java/BurstBalloons.java) |Hard|
-|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)| [Java](./algorithms/java/ValidAnagram.java),  [Editorial](https://leetcode.com/articles/valid-anagram/) |Easy|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)| [Java](./algorithms/java/string/ValidAnagram.java),  [Editorial](https://leetcode.com/articles/valid-anagram/) |Easy|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)| [Java](./algorithms/java/DecodeWays.java) |Medium|
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Java](./algorithms/java/string/MinimumWindowSubstring.java) |Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Java](./algorithms/java/MultiplyStrings.java) |Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](./algorithms/java/TrappingRainWater.java) , [Editorial](https://leetcode.com/articles/trapping-rain-water/)|Hard|
 |1|[Two Sum](https://leetcode.com/problems/two-sum)| [Java](./LeetCodeFirstRun/1. Two Sum.txt) , [Editorial](https://leetcode.com/articles/two-sum)|Easy|

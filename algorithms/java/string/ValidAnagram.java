@@ -1,8 +1,11 @@
+package string;
+
 /**
  * Created by Yang on 2017/9/29.
  ************************************************************************************************
  * 242. Valid Anagram
  * https://leetcode.com/problems/valid-anagram/
+ * 变位词（异序词）：438. Find All Anagrams in a String
  ************************************************************************************************
  * Given two strings s and t, write a function to determine if t is an anagram of s.
  *
