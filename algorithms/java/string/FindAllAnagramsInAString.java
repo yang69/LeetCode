@@ -13,6 +13,7 @@ import java.util.List;
  * 变位词（异序词）：242. Valid Anagram
  * 滑动窗口：
  *  3. Longest Substring Without Repeating Characters
+ *  30. Substring with Concatenation of All Words
  *  76. Minimum Window Substring
  ************************************************************************************************
  * Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.
