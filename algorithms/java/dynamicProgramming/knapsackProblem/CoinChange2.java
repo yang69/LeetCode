@@ -5,7 +5,8 @@ package dynamicProgramming.knapsackProblem;
  ************************************************************************************************
  * 518. Coin Change 2
  * https://leetcode.com/problems/coin-change-2/
- * 背包问题：
+ * 背包问题（http://love-oriented.com/pack/）
+ *  416. Partition Equal Subset Sum(01背包，和为target的集合是否存在)
  ************************************************************************************************
  * You are given coins of different denominations and a total amount of money. Write a function
  * to compute the number of combinations that make up that amount. You may assume that you have
