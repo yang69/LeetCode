@@ -10,6 +10,7 @@ import java.util.List;
  * 416. Partition Equal Subset Sum
  * https://leetcode.com/problems/partition-equal-subset-sum/
  * 背包问题（http://love-oriented.com/pack/）
+ *  494. Target Sum（01背包，和为target的集合共有多少种）
  *  518. Coin Change 2（完全背包，和为target的集合共有多少种）
  ************************************************************************************************
  * Given a non-empty array containing only positive integers, find if the array can be

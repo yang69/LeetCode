@@ -49,5 +49,5 @@
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](./algorithms/java/TrappingRainWater.java) , [Editorial](https://leetcode.com/articles/trapping-rain-water/)|Hard|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Java](./algorithms/java/string/SubstringWithConcatenationOfAllWords.java) |Hard|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](./algorithms/java/string/LongestSubstringWithoutRepeatingCharacters.java) , [Editorial](https://leetcode.com/articles/longest-substring-without-repeating-characters) |Medium|
+|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Java](./algorithms/java/list/AddTwoNumbers.java) , [Editorial](https://leetcode.com/articles/add-two-numbers)|Medium|
 |1|[Two Sum](https://leetcode.com/problems/two-sum)| [Java](./algorithms/java/sum/TwoSum.java) , [Editorial](https://leetcode.com/articles/two-sum)|Easy|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Java](./LeetCodeFirstRun/2. Add Two Numbers.txt) , [Editorial](https://leetcode.com/articles/add-two-numbers)|Medium|

@@ -1,9 +1,13 @@
+package dynamicProgramming.knapsackProblem;
+
 /**
  * Created by Yang on 2017/9/29.
  ************************************************************************************************
  * 494. Target Sum
  * https://leetcode.com/problems/target-sum/
- * 0-1背包问题
+ * 背包问题（http://love-oriented.com/pack/）
+ *  416. Partition Equal Subset Sum(01背包，和为target的集合是否存在)
+ *  518. Coin Change 2（完全背包，和为target的集合共有多少种）
  ************************************************************************************************
  * You are given a list of non-negative integers, a1, a2, ..., an, and a target, S. Now you have
  * 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
