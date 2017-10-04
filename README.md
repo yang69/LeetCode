@@ -48,6 +48,8 @@
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Java](./algorithms/java/MultiplyStrings.java) |Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](./algorithms/java/TrappingRainWater.java) , [Editorial](https://leetcode.com/articles/trapping-rain-water/)|Hard|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Java](./algorithms/java/string/SubstringWithConcatenationOfAllWords.java) |Hard|
+|23|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Java](./algorithms/java/sort/MergeKSortedLists.java) , [Editorial](https://leetcode.com/articles/merge-k-sorted-list/) |Hard|
+|21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Java](./algorithms/java/sort/MergeTwoSortedLists.java) |Easy|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Java](./algorithms/java/number/converter/RomanToInteger.java) |Easy|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [Java](./algorithms/java/number/converter/IntegerToRoman.java) |Medium|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)| [Java](./algorithms/java/binarySearch/MedianOfTwoSortedArrays.java) , [Editorial](https://leetcode.com/articles/median-of-two-sorted-arrays)|Hard|
