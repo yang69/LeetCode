@@ -26,6 +26,7 @@
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)| [Java](./algorithms/java/BinaryTreeTilt.java) , [Editorial](https://leetcode.com/articles/binary-tree-tilt/)|Easy|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)| [Java](./algorithms/java/ArrayPartitionI.java) , [Editorial](https://leetcode.com/articles/array-partitioning-i)|Easy|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C](./algorithms/c/DetectCapital.c)， [C++](./algorithms/cpp/DetectCapital.cpp)|Easy|
+|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/)| [Java](./algorithms/java/dynamicProgramming/knapsackProblem/CoinChange2.java)|Medium|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| [Java](./algorithms/java/LongestPalindromicSubsequence.java)|Medium|
 |507|[Perfect Number](https://leetcode.com/problems/perfect-number/)| [Java](./algorithms/java/PerfectNumber.java) , [Editorial](https://leetcode.com/articles/perfect-number/)|Easy|
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)| [Java](./algorithms/java/TargetSum.java) |Medium|
