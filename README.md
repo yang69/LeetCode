@@ -14,6 +14,7 @@
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)| [Java](./algorithms/java/ImageSmoother.java)|Easy|
 |660|[Remove 9](https://leetcode.com/problems/remove-9/)| [Java](./algorithms/java/Remove9.java)|Hard|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/)| [Java](./algorithms/java/JudgeRouteCircle.java)|Easy|
+|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)| [Java](./algorithms/java/sum/TwoSumIV.java) , [Editorial](https://leetcode.com/articles/two-sum-iv/)|Easy|
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)| [Java](./algorithms/java/TwoKeysKeyboard.java)|Medium|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)| [Java](./algorithms/java/PalindromicSubstrings.java)|Medium|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)| [Java](./algorithms/java/CanPlaceFlowers.java) , [Editorial](https://leetcode.com/articles/can-place-flowers/)|Easy|
@@ -41,11 +42,12 @@
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/CountingBits.java) |Medium|
 |312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)| [Java](./algorithms/java/BurstBalloons.java) |Hard|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)| [Java](./algorithms/java/string/ValidAnagram.java),  [Editorial](https://leetcode.com/articles/valid-anagram/) |Easy|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Java](./algorithms/java/sum/TwoSumII.java),  [Editorial](https://leetcode.com/articles/two-sum-ii-input-array-is-sorted/) |Easy|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)| [Java](./algorithms/java/DecodeWays.java) |Medium|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Java](./algorithms/java/string/MinimumWindowSubstring.java) |Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Java](./algorithms/java/MultiplyStrings.java) |Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](./algorithms/java/TrappingRainWater.java) , [Editorial](https://leetcode.com/articles/trapping-rain-water/)|Hard|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Java](./algorithms/java/string/SubstringWithConcatenationOfAllWords.java) |Hard|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](./algorithms/java/string/LongestSubstringWithoutRepeatingCharacters.java) , [Editorial](https://leetcode.com/articles/longest-substring-without-repeating-characters) |Medium|
-|1|[Two Sum](https://leetcode.com/problems/two-sum)| [Java](./LeetCodeFirstRun/1. Two Sum.txt) , [Editorial](https://leetcode.com/articles/two-sum)|Easy|
+|1|[Two Sum](https://leetcode.com/problems/two-sum)| [Java](./algorithms/java/sum/TwoSum.java) , [Editorial](https://leetcode.com/articles/two-sum)|Easy|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Java](./LeetCodeFirstRun/2. Add Two Numbers.txt) , [Editorial](https://leetcode.com/articles/add-two-numbers)|Medium|
