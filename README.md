@@ -12,7 +12,7 @@
 |663|[Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition/)| [Java](./algorithms/java/EqualTreePartition.java)|Medium|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)| [Java](./algorithms/java/tree/MaximumWidthOfBinaryTree.java)|Medium|
 |661|[Image Smoother](https://leetcode.com/problems/image-smoother/)| [Java](./algorithms/java/ImageSmoother.java)|Easy|
-|660|[Remove 9](https://leetcode.com/problems/remove-9/)| [Java](./algorithms/java/Remove9.java)|Hard|
+|660|[Remove 9](https://leetcode.com/problems/remove-9/)| [Java](./algorithms/java/number/converter/Remove9.java)|Hard|
 |657|[Judge Route Circle](https://leetcode.com/problems/judge-route-circle/)| [Java](./algorithms/java/JudgeRouteCircle.java)|Easy|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)| [Java](./algorithms/java/sum/TwoSumIV.java) , [Editorial](https://leetcode.com/articles/two-sum-iv/)|Easy|
 |650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/)| [Java](./algorithms/java/TwoKeysKeyboard.java)|Medium|
@@ -48,6 +48,8 @@
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings/)| [Java](./algorithms/java/MultiplyStrings.java) |Medium|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [Java](./algorithms/java/TrappingRainWater.java) , [Editorial](https://leetcode.com/articles/trapping-rain-water/)|Hard|
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Java](./algorithms/java/string/SubstringWithConcatenationOfAllWords.java) |Hard|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Java](./algorithms/java/number/converter/RomanToInteger.java) |Easy|
+|12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [Java](./algorithms/java/number/converter/IntegerToRoman.java) |Medium|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)| [Java](./algorithms/java/binarySearch/MedianOfTwoSortedArrays.java) , [Editorial](https://leetcode.com/articles/median-of-two-sorted-arrays)|Hard|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Java](./algorithms/java/string/LongestSubstringWithoutRepeatingCharacters.java) , [Editorial](https://leetcode.com/articles/longest-substring-without-repeating-characters) |Medium|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)| [Java](./algorithms/java/list/AddTwoNumbers.java) , [Editorial](https://leetcode.com/articles/add-two-numbers)|Medium|
