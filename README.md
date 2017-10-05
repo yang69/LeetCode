@@ -33,6 +33,7 @@
 |494|[Target Sum](https://leetcode.com/problems/target-sum/)| [Java](./algorithms/java/TargetSum.java) |Medium|
 |486|[Predict the Winner](https://leetcode.com/problems/predict-the-winner/)| [Java](./algorithms/java/PredictTheWinner.java) |Medium|
 |475|[Heaters](https://leetcode.com/problems/heaters/)| [Java](./algorithms/java/Heaters.java) |Easy|
+|454|[4Sum II](https://leetcode.com/problems/4sum-ii/)| [Java](./algorithms/java/sum/FourSumII.java) |Medium|
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [Java](./algorithms/java/string/FindAllAnagramsInAString.java) |Easy|
 |421.5|[Maximum Xor Secondary](http://codeforces.com/problemset/problem/280/B/)| [Java](./algorithms/java/MaximumXorSecondary.java), [Blog](http://gautamimp.blogspot.com/2016/02/d-maximum-xor-secondary-find-max-and.html) | --- |
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)| [Java](./algorithms/java/MaximumXOROfTwoNumbersInAnArray.java) |Medium|
@@ -50,6 +51,9 @@
 |30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)| [Java](./algorithms/java/string/SubstringWithConcatenationOfAllWords.java) |Hard|
 |23|[Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)| [Java](./algorithms/java/sort/MergeKSortedLists.java) , [Editorial](https://leetcode.com/articles/merge-k-sorted-list/) |Hard|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Java](./algorithms/java/sort/MergeTwoSortedLists.java) |Easy|
+|18|[4Sum](https://leetcode.com/problems/4sum/)| [Java](./algorithms/java/sum/FourSum.java) |Medium|
+|16|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [Java](./algorithms/java/sum/ThreeSumClosest.java) |Medium|
+|15|[3Sum](https://leetcode.com/problems/3sum/)| [Java](./algorithms/java/sum/ThreeSum.java) |Medium|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)| [Java](./algorithms/java/number/converter/RomanToInteger.java) |Easy|
 |12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)| [Java](./algorithms/java/number/converter/IntegerToRoman.java) |Medium|
 |4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)| [Java](./algorithms/java/binarySearch/MedianOfTwoSortedArrays.java) , [Editorial](https://leetcode.com/articles/median-of-two-sorted-arrays)|Hard|
