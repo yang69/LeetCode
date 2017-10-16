@@ -1,4 +1,4 @@
-package trie;
+package dataStructure;
 
 /**
  * Created by Yang on 2017/10/11.

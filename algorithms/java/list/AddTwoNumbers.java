@@ -51,7 +51,7 @@ public class AddTwoNumbers {
             this.val = val;
         }
         public String toString() {
-            if(next == null) {
+            if (next == null) {
                 return val + "";
             }
             return val + ", " + this.next;

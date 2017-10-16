@@ -1,4 +1,4 @@
-package number;
+package number.bit;
 
 /**
  * Created by Yang on 2017/10/9.
