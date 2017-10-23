@@ -38,10 +38,10 @@
 |421.5|[Maximum Xor Secondary](http://codeforces.com/problemset/problem/280/B/)| [Java](./algorithms/java/MaximumXorSecondary.java), [Blog](http://gautamimp.blogspot.com/2016/02/d-maximum-xor-secondary-find-max-and.html) | --- |
 |421|[Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/)| [Java](./algorithms/java/MaximumXOROfTwoNumbersInAnArray.java) |Medium|
 |416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Java](./algorithms/java/dynamicProgramming/knapsackProblem/PartitionEqualSubsetSum.java) |Medium|
-|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](./algorithms/java/IsSubsequence.java) |Medium|
+|392|[Is Subsequence](https://leetcode.com/problems/is-subsequence/)| [Java](./algorithms/java/string/IsSubsequence.java) |Medium|
 |377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)| [Java](./algorithms/java/CombinationSumIV.java) |Medium|
-|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/CountingBits.java) |Medium|
-|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)| [Java](./algorithms/java/BurstBalloons.java) |Hard|
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [Java](./algorithms/java/number/bit/CountingBits.java) |Medium|
+|312|[Burst Balloons](https://leetcode.com/problems/burst-balloons/)| [Java](./algorithms/java/dynamicProgramming/BurstBalloons.java) |Hard|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)| [Java](./algorithms/java/string/ValidAnagram.java),  [Editorial](https://leetcode.com/articles/valid-anagram/) |Easy|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Java](./algorithms/java/sum/TwoSumII.java),  [Editorial](https://leetcode.com/articles/two-sum-ii-input-array-is-sorted/) |Easy|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways/)| [Java](./algorithms/java/DecodeWays.java) |Medium|
