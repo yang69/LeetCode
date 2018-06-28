@@ -21,7 +21,7 @@ public class AddTwoNumbers {
         ListNode dummyHead = new ListNode(0);
         ListNode current = dummyHead;
         int carry = 0;
-        while(l1 != null || l2 != null) {
+        while(null != l1 || null != l2 || 0 != carry) {
             int num1 = 0;
             if (l1 != null) {
                 num1 = l1.val;
@@ -36,9 +36,6 @@ public class AddTwoNumbers {
             carry = sum / 10;
             current.next = new ListNode(sum % 10);
             current = current.next;
-        }
-        if (carry != 0) {
-            current.next = new ListNode(carry);
         }
         return dummyHead.next;
     }
@@ -56,5 +53,18 @@ public class AddTwoNumbers {
             }
             return val + ", " + this.next;
         }
+    }
+
+    public static void main(String[] args) {
+        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+
+        System.out.println(addTwoNumbers.addTwoNumbers(l1, l2) + " <---> 7, 0, 8");
+        System.out.println(addTwoNumbers.addTwoNumbers(new ListNode(4), new ListNode(6)) + " <---> 0, 1");
     }
 }
